@@ -24,7 +24,7 @@ Preparado para publicação. URL registrada em `linkedin/05_URLS.txt` quando dis
 Pasta `linkedin/` pronta para copiar e colar.
 
 ## Validação
-16 passed in 19.56s
+16 passed in 15.90s
 
 ## Resultados
 Consumo: 51.076,0 MWh. Custo: R$ 54.690.956,73. Solar: 2.601,0 MWh. Anomalias: 562.

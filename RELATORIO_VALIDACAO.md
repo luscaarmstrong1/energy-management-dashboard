@@ -5,7 +5,7 @@
 - Período: 01/01/2025 a 31/12/2025
 - Anomalias detectadas: 562
 - Alertas: 36
-- Testes: 16 passed in 19.56s
+- Testes: 16 passed in 15.90s
 - Balanço energético: validado por teste automatizado
 - Demanda: validada por comparação com máximo horário mensal
 - Custos: componentes reconciliados com custo total

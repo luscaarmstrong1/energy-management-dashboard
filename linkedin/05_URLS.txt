@@ -1,4 +1,4 @@
-URL GitHub: https://github.com/luscaarmstrong1/energy-management-dashboard
+URL GitHub: PENDENTE
 URL Dashboard: http://localhost:8501
-URL GitHub Pages: https://luscaarmstrong1.github.io/energy-management-dashboard/
+URL GitHub Pages: PENDENTE
 URL Streamlit: PENDENTE
