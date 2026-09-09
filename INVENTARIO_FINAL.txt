@@ -1,0 +1,13 @@
+README.md - documentação principal em português
+app.py - dashboard Streamlit
+Energy_Management_Data.xlsx - workbook executivo
+resumo_portfolio.json - fonte consolidada de KPIs
+data/ - CSVs do modelo estrela
+scripts/ - geração, validação, anomalias e finalização
+tests/ - suíte automatizada
+powerbi/ - tema, DAX, Power Query e especificação
+docs/ - documentação técnica e executiva
+linkedin/ - textos e instruções para LinkedIn
+assets/screenshots/ - screenshots finais
+assets/linkedin/ - capa, imagem quadrada e carrossel
+site/index.html - página estática de apresentação

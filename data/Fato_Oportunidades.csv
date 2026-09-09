@@ -1,0 +1,25 @@
+ID_Oportunidade,ID_Unidade,Categoria,Descricao,Investimento_R,Economia_kWh_Ano,Economia_R_Ano,Payback_Anos,Prioridade,Status
+OPP001,U001,Iluminacao LED,Substituir luminarias convencionais por LED industrial,148962.53,251726.98,244508.71,0.61,Alta,Priorizada
+OPP002,U001,Gestao de demanda,Reprogramar cargas flexiveis fora do horario de ponta,94318.86,143843.99,205719.26,0.46,Alta,Priorizada
+OPP003,U001,Inversores de frequencia,Aplicar VFDs em motores com carga variavel,322292.11,323648.97,314368.34,1.03,Media,Em avaliacao
+OPP004,U001,Compressores,Eliminar vazamentos e otimizar setpoints de ar comprimido,124401.46,201381.58,195606.97,0.64,Alta,Priorizada
+OPP005,U002,Iluminacao LED,Substituir luminarias convencionais por LED industrial,188203.17,177659.29,182743.3,1.03,Alta,Priorizada
+OPP006,U002,Gestao de demanda,Reprogramar cargas flexiveis fora do horario de ponta,70521.48,101519.59,170424.74,0.41,Alta,Priorizada
+OPP007,U002,Inversores de frequencia,Aplicar VFDs em motores com carga variavel,277861.96,228419.08,234955.67,1.18,Media,Em avaliacao
+OPP008,U002,Compressores,Eliminar vazamentos e otimizar setpoints de ar comprimido,102984.45,142127.43,146194.64,0.7,Alta,Priorizada
+OPP009,U003,Gestao de demanda,Reprogramar cargas flexiveis fora do horario de ponta,105293.15,429668.88,549291.55,0.19,Alta,Priorizada
+OPP010,U003,Inversores de frequencia,Aplicar VFDs em motores com carga variavel,197251.86,966754.98,1087406.0,0.18,Media,Em avaliacao
+OPP011,U003,Compressores,Eliminar vazamentos e otimizar setpoints de ar comprimido,130726.11,601536.43,676608.18,0.19,Alta,Priorizada
+OPP012,U003,Climatizacao,"Ajustar automacao, setpoints e manutencao preditiva",86939.74,537086.1,604114.44,0.14,Media,Em avaliacao
+OPP013,U004,Iluminacao LED,Substituir luminarias convencionais por LED industrial,147371.92,379720.9,423885.6,0.35,Alta,Priorizada
+OPP014,U004,Gestao de demanda,Reprogramar cargas flexiveis fora do horario de ponta,79434.55,216983.37,308220.35,0.26,Alta,Priorizada
+OPP015,U004,Inversores de frequencia,Aplicar VFDs em motores com carga variavel,228602.7,488212.59,544995.78,0.42,Media,Em avaliacao
+OPP016,U004,Compressores,Eliminar vazamentos e otimizar setpoints de ar comprimido,112171.81,303776.72,339108.48,0.33,Alta,Priorizada
+OPP017,U005,Iluminacao LED,Substituir luminarias convencionais por LED industrial,205432.47,53084.83,46254.14,4.44,Alta,Priorizada
+OPP018,U005,Gestao de demanda,Reprogramar cargas flexiveis fora do horario de ponta,69824.98,30334.19,29922.33,2.33,Alta,Priorizada
+OPP019,U005,Inversores de frequencia,Aplicar VFDs em motores com carga variavel,290261.47,68251.92,59469.6,4.88,Media,Em avaliacao
+OPP020,U005,Compressores,Eliminar vazamentos e otimizar setpoints de ar comprimido,109165.37,42467.86,37003.31,2.95,Alta,Priorizada
+OPP021,U006,Iluminacao LED,Substituir luminarias convencionais por LED industrial,214698.15,173548.71,166499.74,1.29,Alta,Priorizada
+OPP022,U006,Gestao de demanda,Reprogramar cargas flexiveis fora do horario de ponta,111231.73,99170.69,161142.71,0.69,Alta,Priorizada
+OPP023,U006,Inversores de frequencia,Aplicar VFDs em motores com carga variavel,222515.29,223134.05,214071.09,1.04,Media,Em avaliacao
+OPP024,U006,Compressores,Eliminar vazamentos e otimizar setpoints de ar comprimido,94558.77,138838.96,133199.79,0.71,Alta,Priorizada

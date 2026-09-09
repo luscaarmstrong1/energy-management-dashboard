@@ -1,0 +1,12 @@
+Total de registros: 315.360
+Unidades: 6
+Período: 01/01/2025 a 31/12/2025
+Consumo Total: 51.076,0 MWh
+Custo Total: R$ 54.690.956,73
+Demanda Máxima: 3.527 kW
+Solar Total: 2.601,0 MWh
+Cobertura Solar: 5,1%
+Emissões Evitadas: 99,9 tCO2e
+Economia Potencial: R$ 7.075.714,72/ano
+Número de Alertas: 36
+Número de Anomalias: 562

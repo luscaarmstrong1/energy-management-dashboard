@@ -1,0 +1,37 @@
+ID_Alerta,Timestamp,ID_Unidade,TipoAlerta,Severidade,ValorMedido,ValorEsperado,DesvioPercentual,Status,Descricao
+ALT001,2025-08-19 20:00:00,U002,Consumo anormal,Alta,1427.919,535.305,1.6675,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT002,2025-08-19 19:00:00,U002,Consumo anormal,Alta,1361.686,535.305,1.5438,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT003,2025-04-22 17:00:00,U005,Consumo anormal,Alta,481.576,193.692,1.4863,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT004,2025-08-19 18:00:00,U002,Consumo anormal,Alta,1291.0,535.305,1.4117,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT005,2025-03-10 17:00:00,U005,Consumo anormal,Alta,412.688,181.651,1.2719,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT006,2025-04-02 18:00:00,U005,Consumo anormal,Alta,438.484,193.692,1.2638,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT007,2025-06-09 18:00:00,U005,Consumo anormal,Alta,402.662,178.648,1.2539,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT008,2025-05-13 17:00:00,U005,Consumo anormal,Alta,421.904,188.012,1.244,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT009,2025-03-26 18:00:00,U005,Consumo anormal,Alta,406.406,181.651,1.2373,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT010,2025-05-06 18:00:00,U005,Consumo anormal,Alta,418.299,188.012,1.2249,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT011,2025-03-13 17:00:00,U005,Consumo anormal,Alta,404.065,181.651,1.2244,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT012,2025-03-20 18:00:00,U005,Consumo anormal,Alta,403.958,181.651,1.2238,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT013,2025-03-14 18:00:00,U005,Consumo anormal,Alta,403.524,181.651,1.2214,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT014,2025-05-07 18:00:00,U005,Consumo anormal,Alta,415.192,188.012,1.2083,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT015,2025-05-02 18:00:00,U005,Consumo anormal,Alta,415.018,188.012,1.2074,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT016,2025-04-08 18:00:00,U005,Consumo anormal,Alta,427.512,193.692,1.2072,Aberto,Consumo anormal identificado por regra estatistica sintetica.
+ALT017,2025-01-01 10:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT018,2025-01-01 11:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT019,2025-01-01 12:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT020,2025-01-01 13:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT021,2025-01-01 14:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT022,2025-01-01 15:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT023,2025-01-02 10:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT024,2025-01-02 11:00:00,U003,Geracao solar abaixo do esperado,Media,0.0,80.0,-1.0,Em analise,Geracao solar abaixo do esperado identificado por regra estatistica sintetica.
+ALT025,2025-04-01 00:00:00,U003,Ultrapassagem de demanda,Critica,3527.31,2100.0,0.6797,Aberto,Demanda maxima mensal acima da contratada.
+ALT026,2025-05-01 00:00:00,U003,Ultrapassagem de demanda,Critica,3468.41,2100.0,0.6516,Aberto,Demanda maxima mensal acima da contratada.
+ALT027,2025-03-01 00:00:00,U003,Ultrapassagem de demanda,Critica,3396.34,2100.0,0.6173,Aberto,Demanda maxima mensal acima da contratada.
+ALT028,2025-02-01 00:00:00,U003,Ultrapassagem de demanda,Critica,3255.01,2100.0,0.55,Aberto,Demanda maxima mensal acima da contratada.
+ALT029,2025-04-01 00:00:00,U004,Ultrapassagem de demanda,Critica,2022.69,880.0,1.2985,Aberto,Demanda maxima mensal acima da contratada.
+ALT030,2025-06-01 00:00:00,U003,Ultrapassagem de demanda,Critica,3199.53,2100.0,0.5236,Aberto,Demanda maxima mensal acima da contratada.
+ALT031,2025-03-01 00:00:00,U004,Ultrapassagem de demanda,Critica,1959.96,880.0,1.2272,Aberto,Demanda maxima mensal acima da contratada.
+ALT032,2025-05-01 00:00:00,U004,Ultrapassagem de demanda,Critica,1894.39,880.0,1.1527,Aberto,Demanda maxima mensal acima da contratada.
+ALT033,2025-06-01 00:00:00,U004,Ultrapassagem de demanda,Critica,1853.56,880.0,1.1063,Aberto,Demanda maxima mensal acima da contratada.
+ALT034,2025-02-01 00:00:00,U004,Ultrapassagem de demanda,Critica,1826.32,880.0,1.0754,Aberto,Demanda maxima mensal acima da contratada.
+ALT035,2025-07-01 00:00:00,U003,Ultrapassagem de demanda,Critica,2975.35,2100.0,0.4168,Aberto,Demanda maxima mensal acima da contratada.
+ALT036,2025-01-01 00:00:00,U004,Ultrapassagem de demanda,Critica,1732.17,880.0,0.9684,Aberto,Demanda maxima mensal acima da contratada.

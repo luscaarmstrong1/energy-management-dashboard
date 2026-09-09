@@ -1,0 +1,4 @@
+URL GitHub: PENDENTE
+URL Dashboard: http://localhost:8501
+URL GitHub Pages: PENDENTE
+URL Streamlit: PENDENTE

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard de Gestão e Analytics de Energia</title>
+  <style>
+    body { margin:0; font-family:Segoe UI, Arial, sans-serif; background:#f6f8f7; color:#163238; }
+    header { background:#163238; color:white; padding:64px 8vw 48px; }
+    h1 { font-size:44px; margin:0 0 12px; }
+    section { padding:36px 8vw; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; }
+    .card { background:white; border:1px solid #dbe4e2; border-radius:8px; padding:20px; }
+    .metric { font-size:28px; font-weight:700; color:#006A5C; }
+    img { max-width:100%; border:1px solid #dbe4e2; border-radius:8px; margin:12px 0; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Dashboard de Gestão e Analytics de Energia</h1>
+  <p>Engenharia Elétrica • Power BI • Python • Eficiência Energética</p>
+</header>
+<section class="grid">
+  <div class="card"><span>Registros horários</span><div class="metric">315.360</div></div>
+  <div class="card"><span>Consumo total</span><div class="metric">51.076,0 MWh</div></div>
+  <div class="card"><span>Custo total</span><div class="metric">R$ 54.690.956,73</div></div>
+  <div class="card"><span>Anomalias</span><div class="metric">562</div></div>
+</section>
+<section>
+  <h2>Prévia do dashboard</h2>
+  <img src="../assets/screenshots/01_visao_executiva.png" alt="Visão executiva">
+  <img src="../assets/screenshots/03_demanda.png" alt="Gestão de demanda">
+  <img src="../assets/screenshots/05_solar.png" alt="Energia solar">
+  <h2>Insights</h2>
+  <ul><li>Nexus Belo Horizonte Metals concentra 42,1% do consumo anual.</li><li>Nexus Belo Horizonte Metals apresenta o maior custo anual: R$ 24.191.631,61.</li><li>Nexus Belo Horizonte Metals registra a maior demanda máxima: 3.527 kW.</li><li>Nexus Vitoria Cold Chain tem o maior risco de demanda, com utilização máxima de 229,9%.</li><li>Nexus Curitiba Office tem baixa utilização da demanda contratada: 114,7%.</li><li>Nexus Curitiba Office possui o menor fator de carga: 0.36.</li><li>A geração solar total foi de 2.601,0 MWh, sem geração noturna no modelo.</li><li>A cobertura solar do portfólio foi de 5,1%.</li></ul>
+</section>
+</body>
+</html>

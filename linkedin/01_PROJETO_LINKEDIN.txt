@@ -1,0 +1,3 @@
+Dashboard de Gestão e Analytics de Energia
+
+Desenvolvimento de uma plataforma analítica para gestão energética utilizando uma base sintética com 315.360 medições horárias distribuídas entre 6 unidades fictícias. O projeto integra análise de consumo e demanda, custos, geração fotovoltaica, intensidade energética, baseline, oportunidades de eficiência e detecção estatística de anomalias. A solução utiliza Python, Streamlit e modelagem preparada para Power BI, demonstrando aplicação de Data Analytics a problemas de Engenharia Elétrica e Gestão de Energia.

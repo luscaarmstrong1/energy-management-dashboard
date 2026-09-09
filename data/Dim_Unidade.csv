@@ -1,0 +1,7 @@
+ID_Unidade,Unidade,Cidade,UF,TipoUnidade,PerfilOperacao,Area_m2,Funcionarios,PotenciaFV_kWp,DemandaContratada_kW,TarifaPonta_R_kWh,TarifaForaPonta_R_kWh,TarifaDemanda_R_kW,PenalidadeUltrapassagem_R_kW,ImpostosPercentual,OutrosEncargos_R,BaseLoad_kW,PeakLoad_kW,ProductionBase,DemandScenario
+U001,Nexus Sao Paulo Manufacturing,São Paulo,SP,Fábrica,industrial_shift,18500,420,780,1280,1.42,0.62,42.0,84.0,0.245,9800,210,1120,15500,adequada
+U002,Nexus Campinas Logistics,Campinas,SP,Centro logístico,logistics,24000,210,420,720,1.35,0.58,39.0,78.0,0.238,6200,120,690,9800,ultrapassagem
+U003,Nexus Belo Horizonte Metals,Belo Horizonte,MG,Fábrica,continuous,31000,510,0,2100,1.48,0.66,45.0,90.0,0.252,12400,820,1680,22000,superdimensionada
+U004,Nexus Vitoria Cold Chain,Vitória,ES,Centro de distribuição refrigerado,cold_chain,16000,165,310,880,1.46,0.64,44.0,88.0,0.247,7600,390,830,7600,ultrapassagem
+U005,Nexus Curitiba Office,Curitiba,PR,Escritório administrativo,office,6800,360,95,420,1.25,0.54,35.0,70.0,0.225,3400,40,320,0,baixa_utilizacao
+U006,Nexus Ribeirao Preto Packaging,Ribeirão Preto,SP,Unidade industrial leve,industrial_shift,12500,240,520,790,1.38,0.6,40.0,80.0,0.24,5600,145,760,11800,adequada

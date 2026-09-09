@@ -1,0 +1,11 @@
+ID_Setor,Setor,TiposUnidadeAplicaveis,PesoReferencia
+S001,Produção,"Fabrica, Unidade industrial leve",0.38
+S002,Refrigeração,"Centro de distribuicao refrigerado, Centro logistico",0.31
+S003,Climatização,"Fabrica, Unidade industrial leve, Centro logistico, Escritorio administrativo, Centro de distribuicao refrigerado",0.15
+S004,Iluminação,"Fabrica, Unidade industrial leve, Centro logistico, Escritorio administrativo, Centro de distribuicao refrigerado",0.08
+S005,Compressores,"Fabrica, Unidade industrial leve",0.16
+S006,Motores,"Fabrica, Unidade industrial leve, Centro logistico",0.17
+S007,TI,"Escritorio administrativo, Centro logistico",0.08
+S008,Administrativo,"Escritorio administrativo, Fabrica, Unidade industrial leve",0.05
+S009,Utilidades,"Fabrica, Unidade industrial leve, Centro de distribuicao refrigerado",0.11
+S010,Carregamento de Veículos,"Centro logistico, Centro de distribuicao refrigerado",0.09

@@ -1,0 +1,7 @@
+ID_Unidade,TarifaPonta_R_kWh,TarifaForaPonta_R_kWh,DemandaContratada_kW,TarifaDemanda_R_kW,PenalidadeUltrapassagem_R_kW,ImpostosPercentual,OutrosEncargos_R,InicioPonta,FimPonta,ModeloTarifario
+U001,1.42,0.62,1280,42.0,84.0,0.245,9800,18:00,21:00,Tarifa sintética horo-sazonal parametrizável
+U002,1.35,0.58,720,39.0,78.0,0.238,6200,18:00,21:00,Tarifa sintética horo-sazonal parametrizável
+U003,1.48,0.66,2100,45.0,90.0,0.252,12400,18:00,21:00,Tarifa sintética horo-sazonal parametrizável
+U004,1.46,0.64,880,44.0,88.0,0.247,7600,18:00,21:00,Tarifa sintética horo-sazonal parametrizável
+U005,1.25,0.54,420,35.0,70.0,0.225,3400,18:00,21:00,Tarifa sintética horo-sazonal parametrizável
+U006,1.38,0.6,790,40.0,80.0,0.24,5600,18:00,21:00,Tarifa sintética horo-sazonal parametrizável

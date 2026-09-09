@@ -1,0 +1,14 @@
+{
+  "name": "Gestão de Energia Executivo",
+  "dataColors": [
+    "#006A5C",
+    "#007991",
+    "#1B5E84",
+    "#54706F",
+    "#F2A900",
+    "#C0392B"
+  ],
+  "background": "#F6F8F7",
+  "foreground": "#163238",
+  "tableAccent": "#006A5C"
+}

@@ -1,0 +1,17 @@
+TOP 5
+1. Gestão de Energia
+2. Microsoft Power BI
+3. Data Analytics
+4. Engenharia Elétrica
+5. Eficiência Energética
+
+Complementares
+Python
+Business Intelligence
+Data Visualization
+Renewable Energy
+Energy Analytics
+Data Modeling
+DAX
+Power Query
+Streamlit

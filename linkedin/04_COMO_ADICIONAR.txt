@@ -1,0 +1,8 @@
+1. Abrir o LinkedIn.
+2. Acessar o perfil.
+3. Adicionar seção ao perfil.
+4. Selecionar Projetos.
+5. Colar o nome e a descrição de `01_PROJETO_LINKEDIN.txt`.
+6. Adicionar a URL do GitHub ou da demonstração.
+7. Vincular as competências de `02_COMPETENCIAS.txt`.
+8. Salvar.
