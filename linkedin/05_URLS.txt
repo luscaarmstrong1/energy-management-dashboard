@@ -1,4 +1,4 @@
-URL GitHub: https://github.com/renovera1/energy-management-dashboard
+URL GitHub: https://github.com/luscaarmstrong1/energy-management-dashboard
 URL Dashboard: http://localhost:8501
-URL GitHub Pages: https://renovera1.github.io/energy-management-dashboard/
+URL GitHub Pages: https://luscaarmstrong1.github.io/energy-management-dashboard/
 URL Streamlit: PENDENTE
