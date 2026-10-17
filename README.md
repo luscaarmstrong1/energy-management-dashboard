@@ -1,112 +1,105 @@
-# Dashboard de Gestão e Analytics de Energia
+# Dashboard de Gestão e Eficiência Energética Industrial
+### *Industrial Energy Management & Efficiency Dashboard*
 
-Engenharia Elétrica • Gestão de Energia • Power BI • Python • Eficiência Energética
+[![Simulador Online](https://img.shields.io/badge/Simulador_Interativo-GitHub_Pages-D3A15C?style=for-the-badge&logo=github)](https://luscaarmstrong1.github.io/energy-management-dashboard/)
+[![Portfólio Lucas Santos](https://img.shields.io/badge/Portf%C3%B3lio-Lucas_Santos-071827?style=for-the-badge&logo=vercel)](https://lucas-santos-portfolio-zeta.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas_Silva_Santos-102B42?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/lucasssantos1/)
+[![Python](https://img.shields.io/badge/Python-Engenharia_%26_Dados-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/luscaarmstrong1/energy-management-dashboard)
 
-![Visão Executiva](assets/screenshots/01_visao_executiva.png)
+> **Camada 08 • Ecossistema de Engenharia, Energia, Dados & Automação**
+> Monitoramento multi-unidade de consumo, demanda contratada (ponta/fora de ponta), fator de potência, geração solar própria, baseline energético e alertas.
 
-## Visão Geral
-Plataforma analítica de portfólio para gestão energética de uma empresa fictícia, a Nexus Industrial Group. O projeto usa dados sintéticos horários para analisar consumo, demanda, custos, geração fotovoltaica, emissões, baseline, alertas e oportunidades de eficiência energética.
+---
 
-## Problema
-Operações industriais e comerciais precisam transformar medições de energia em diagnósticos claros: quando a empresa consome, onde estão os picos, quanto custa operar, qual unidade é menos eficiente e quais ações geram retorno.
+## Acesse o Simulador Interativo e Demonstração Online
 
-## Objetivo
-Demonstrar aplicação prática de Engenharia Elétrica, Gestão de Energia, Data Analytics, Power BI e Python em um case profissional pronto para GitHub, LinkedIn, currículo e entrevistas.
+- **Simulador Paramétrico Web (GitHub Pages):** [https://luscaarmstrong1.github.io/energy-management-dashboard/](https://luscaarmstrong1.github.io/energy-management-dashboard/)
+- **Vitrine no Portfólio Principal:** [https://lucas-santos-portfolio-zeta.vercel.app/#arquitetura](https://lucas-santos-portfolio-zeta.vercel.app/#arquitetura)
 
-## Demonstração
-Execute `INICIAR_DASHBOARD.bat` ou rode `streamlit run app.py`. A versão web local possui oito páginas: Visão Executiva, Análise de Consumo, Gestão de Demanda, Custos e Tarifas, Energia Solar, Eficiência Energética, Alertas e Anomalias e Detalhamento da Unidade.
+---
 
-![Consumo](assets/screenshots/02_consumo.png)
-![Demanda](assets/screenshots/03_demanda.png)
-![Solar](assets/screenshots/05_solar.png)
+## Visão Geral e Problema de Engenharia
 
-## Cenário de Estudo
-A Nexus Industrial Group possui 6 unidades fictícias com perfis distintos: fábricas, logística, escritório, operação contínua e cadeia fria. Todos os dados são sintéticos e não representam clientes, faturas, contratos ou tarifas reais.
+Plataforma analítica de gestão energética industrial (ISO 50001): monitoramento de consumo e demanda na ponta, controle de ultrapassagem e fator de potência, geração fotovoltaica on-site e diagnóstico de eficiência em Python e Streamlit.
 
-## Base de Dados
-- Período: 01/01/2025 a 31/12/2025
-- Granularidade: horária
-- Registros horários: 315.360
-- Registros mensais de custo: 72
-- Unidades: 6
-- Setores: 10
+### Indicadores-Chave do Projeto (Caso-Base)
 
-## Principais Indicadores
-- Consumo total: 51.076,0 MWh
-- Custo total: R$ 54.690.956,73
-- Demanda máxima: 3.527 kW
-- Custo médio: R$ 1,07/kWh
-- Geração solar: 2.601,0 MWh
-- Cobertura solar: 5,1%
-- Dependência da rede: 94,9%
-- Emissões evitadas: 99,9 tCO2e
-- Economia potencial: R$ 7.075.714,72/ano
+| Indicador Técnico | Resultado / Escopo | Detalhamento de Engenharia |
+| :--- | :--- | :--- |
+| **Escopo Operacional** | `8 Módulos` | Consumo, Demanda, Custos, Solar e Alertas |
+| **Gestão de Demanda** | `Ponta & Fora` | Prevenção de ultrapassagem tarifária |
+| **Geração On-Site** | `Autoconsumo FV` | Abatimento direto no horário de ponta |
+| **Diagnóstico Ativo** | `Baseline EnPI` | Detecção de desvios de intensidade energética |
 
-## Análise de Consumo
-A aplicação apresenta curva média diária, curva por dia útil e fim de semana, consumo por hora, setor, unidade e heatmap Dia da Semana x Hora com ordem operacional correta.
+---
 
-## Gestão de Demanda
-A análise compara demanda máxima, demanda contratada, excesso, utilização e custo de ultrapassagem. A metodologia de excesso é `MAX(Demanda Máxima - Demanda Contratada, 0)`.
+## Arquitetura do Sistema e Fluxo de Modelagem
 
-## Análise de Custos
-Os custos são calculados com tarifa sintética parametrizável: energia em ponta/fora ponta, demanda, ultrapassagem, impostos e encargos. Nenhuma tarifa é apresentada como oficial.
+1. **Etapa 01:** Consolidação de Medições Multi-Planta (Séries horárias de consumo ativo, demanda kW, geração solar e produção)
+2. **Etapa 02:** Análise Tarifária e Gestão de Demanda (Avaliação de ponta/fora de ponta, ultrapassagem e oportunidade de ajuste contratual)
+3. **Etapa 03:** Rastreamento de Eficiência & Baseline (Comparação do consumo real contra linha de base ajustada por produção e clima)
+4. **Etapa 04:** Motor de Alertas e Plano de Ação (Identificação automática de anomalias de fim de semana, picos e retorno de retrofits)
 
-## Energia Solar
-A geração fotovoltaica é modelada somente em horas diurnas. A cobertura solar é `Autoconsumo Solar / Consumo` e o autoconsumo percentual é `Autoconsumo Solar / Geração Solar`.
+---
 
-## Eficiência Energética
-O projeto inclui baseline por unidade, setor, dia da semana e hora, desvio absoluto/percentual, intensidade energética, oportunidades, investimento, economia anual e payback simples.
+## Fundamentação Física, Matemática e Regulatória
 
-## Alertas e Anomalias
-A detecção estatística usa z-score, média móvel e IQR. Ela não é apresentada como IA. O total atual é 562 anomalias detectadas e 36 alertas operacionais.
+### 1. Indicador de Intensidade Energética (EnPI)
+```text
+EnPI = Consumo_Total_Energia(kWh) / Volume_Produção_Industrial(unid)
+```
 
-## Modelo de Dados
-![Modelo de Dados](assets/architecture/modelo_dados.png)
+### 2. Penalidade de Ultrapassagem de Demanda
+```text
+C_Ultrapassagem = (D_Medida - D_Contratada) · 2 · Tarifa_Demanda  [se D_Medida > 1,05 · D_Contratada]
+```
 
-Modelo estrela com fatos de medições, custos, oportunidades, alertas e produção mensal conectados às dimensões de calendário, tempo, unidade, setor e tarifa.
+### 3. Economia Integrada (Solar + Eficiência)
+```text
+Economia_Anual = E_Solar_Autoconsumo · Tarifa_Média + ΔE_Eficiência · Tarifa_Ponta_FP
+```
 
-## Tecnologias Utilizadas
-Python, pandas, NumPy, Streamlit, Plotly, Power BI, DAX, Power Query, Excel, pytest e Pillow.
+---
 
-## Power BI
-O pacote Power BI está documentado em `powerbi/`. Inclui tema, medidas DAX, Power Query, modelo de dados e especificação de oito páginas. Não há PBIX falso.
+## Painéis Analíticos e Evidências Visuais
 
-## Dashboard Web
-O arquivo `app.py` entrega a versão demonstrativa em Streamlit com filtros globais reais e KPIs recalculados conforme unidade, período, setor, tipo de unidade, dia útil e horário de ponta.
+### Visão Executiva de Gestão Energética Industrial
+![Visão Executiva de Gestão Energética Industrial](assets/screenshots/01_visao_executiva.png)
 
-## Excel
-`Energy_Management_Data.xlsx` contém resumo executivo, KPIs, custos mensais, unidades, tarifas, oportunidades, alertas e produção mensal, com formatação profissional.
+### Perfil de Consumo Horário e Sazonalidade
+![Perfil de Consumo Horário e Sazonalidade](assets/screenshots/02_consumo.png)
 
-## Arquitetura
-![Arquitetura](assets/architecture/arquitetura_projeto.png)
+### Gestão de Demanda Contratada vs. Medida
+![Gestão de Demanda Contratada vs. Medida](assets/screenshots/03_demanda.png)
 
-## Insights
-Os principais insights calculados estão em `docs/insights.md` e em `resumo_portfolio.json`.
+### Decomposição de Custos Tarifários Ponta / Fora Ponta
+![Decomposição de Custos Tarifários Ponta / Fora Ponta](assets/screenshots/04_custos.png)
 
-## Estrutura do Repositório
-Dados ficam em `data/`, scripts em `scripts/`, testes em `tests/`, documentação Power BI em `powerbi/`, documentação executiva em `docs/`, materiais de LinkedIn em `linkedin/` e imagens em `assets/`.
+---
 
-## Como Executar
+## Como Executar Localmente
+
 ```bash
+# 1. Clone o repositório
+git clone https://github.com/luscaarmstrong1/energy-management-dashboard.git
+cd energy-management-dashboard
+
+# 2. Instale as dependências e execute a suíte analítica
 pip install -r requirements.txt
-python scripts/finalizar_projeto.py
+pytest
 streamlit run app.py
 ```
 
-## Como Atualizar os Dados
-Execute `ATUALIZAR_TUDO.bat`. O script valida dados, recalcula KPIs, atualiza `resumo_portfolio.json`, executa testes e gera relatório de validação.
+> **Nota Técnica:** Este projeto utiliza modelagem determinística auditável e séries sintéticas estruturadas para demonstração de arquitetura de engenharia elétrica, ciência de dados e tomada de decisão técnico-econômica. Não substitui projeto executivo, parecer de acesso da concessionária ou emissão de ART específica de campo.
 
-## Testes e Validação
-A suíte valida balanço energético, solar noturno, demanda, custos, emissões, fator de carga, cobertura solar, autoconsumo, dependência da rede, baseline, intensidade energética, anomalias, nulos, IDs e duplicidades.
+---
 
-## Privacidade
-Todos os dados são sintéticos. O projeto não contém faturas reais, contratos reais, unidades consumidoras reais ou dados confidenciais.
+## Autor e Responsável Técnico
 
-## Limitações
-Tarifas, emissões e perfis operacionais são premissas demonstrativas. O projeto não substitui auditoria energética, estudo tarifário regulatório, projeto elétrico ou validação metrológica.
+**Lucas Silva Santos**
+*Engenheiro Eletricista & Gerente de Projetos*
+Energia • Dados • Inteligência Artificial • Automação • São João da Boa Vista, SP • Itajubá, MG
 
-## Evoluções Futuras
-Dados de 15 minutos, IoT, medidores inteligentes, previsão de demanda, previsão de consumo, previsão solar, BESS, Demand Response, tarifas reais, mercado livre de energia e digital twin energético.
-
-## Autor
-Lucas
+- **Portfólio:** [https://lucas-santos-portfolio-zeta.vercel.app/](https://lucas-santos-portfolio-zeta.vercel.app/)
+- **LinkedIn:** [linkedin.com/in/lucasssantos1](https://www.linkedin.com/in/lucasssantos1/)
+- **GitHub:** [@luscaarmstrong1](https://github.com/luscaarmstrong1)
